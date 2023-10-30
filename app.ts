@@ -1,8 +1,7 @@
-const a:number = 10;
-let b: String;
+//crear una funcion aninima autoinvocada 
+(() => {
+    const a:number = 10;
+    
+    console.log(a)
+})()
 
-b = 3.1416;
-
-function sayHello(msg){
-    console.log(msg)
-}
