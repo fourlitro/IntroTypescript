@@ -110,6 +110,6 @@
     "node_modules"
   ],
   "include": [
-    "ES6" //SI NO APLICA TODA LA CARPETA
+    "classes" //SI NO APLICA TODA LA CARPETA
   ]
 }
