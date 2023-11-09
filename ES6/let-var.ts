@@ -8,7 +8,7 @@
     // }
 
     const getName = ():void =>{
-        console.log("nuevo getName");
+        //console.log("nuevo getName");
     };
 })()
 

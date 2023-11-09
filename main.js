@@ -20,14 +20,31 @@ var __rest = (this && this.__rest) || function (s, e) {
     };
     const printAvanger = (_a) => {
         var { ironman } = _a, resto = __rest(_a, ["ironman"]);
-        console.log(ironman, resto);
     };
-    printAvanger(avengers);
+    const avangersArr = ['Cap. America', true, 150.15];
+    const [capitan, ironman, seriaUnNumero] = avangersArr;
 });
+(() => {
+    const ironman = {
+        name: 'Tonystark',
+        weapon: 'Armorsuit'
+    };
+    const capitanAmerica = {
+        name: 'Capitan America',
+        weapon: 'Escudo'
+    };
+    const thor = {
+        name: 'Thor',
+        weapon: 'Mjolnir'
+    };
+    const avangers = [ironman, thor, capitanAmerica];
+    for (const avanger of avangers) {
+        console.log(avanger.name, avanger.weapon);
+    }
+})();
 (() => {
     const NOMBRE = "Aldair";
     const getName = () => {
-        console.log("nuevo getName");
     };
 })();
 //# sourceMappingURL=main.js.map

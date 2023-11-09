@@ -1,5 +1,5 @@
 (() => {
-
+    // Desestructuracion de un objeto
     type Avangers = {
         nick: string;
         ironman: string;
@@ -21,8 +21,16 @@
     // console.log( poder.toFixed(2), vision.toUpperCase());
 
     const printAvanger = ( { ironman, ...resto}: Avangers) => {
-        console.log(ironman, resto);
+        //console.log(ironman, resto);
     }
 
-    printAvanger(avengers);
+   // printAvanger(avengers);
+
+   // Desestructuracion de un arrreglo 
+
+   const avangersArr: [string, boolean, number] = ['Cap. America', true, 150.15];
+
+   const [capitan, ironman, seriaUnNumero]= avangersArr;
+
+   //console.log({ ironman, capitan })
 });
