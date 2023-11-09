@@ -110,6 +110,6 @@
     "node_modules"
   ],
   "include": [
-    "classes" //SI NO APLICA TODA LA CARPETA
+    "interfaces" //SI NO APLICA TODA LA CARPETA
   ]
 }
