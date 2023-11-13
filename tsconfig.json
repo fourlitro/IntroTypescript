@@ -110,6 +110,6 @@
     "node_modules"
   ],
   "include": [
-    "namespace" //SI NO APLICA TODA LA CARPETA
+    "namespaces" //SI NO APLICA TODA LA CARPETA
   ]
 }
